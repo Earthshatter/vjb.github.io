@@ -1,6 +1,6 @@
 "use strict";
-import { config } from "./js/config.js";
-const API_KEY = config.API_KEY;
+import { config } from "./config.js";
+const { API_KEY } = config;
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;

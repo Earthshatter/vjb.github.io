@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="nowDate"></div>
+      <div class="title_font">만나서 반가워요!</div>
+      <form class="hidden" id="loginForm">
+        <input type="text" placeholder="누구신가요?" />
+        <button type="submit">안녕</button>
+      </form>
+      <form id="todoForm" class="hidden">
+        <input type="text" placeholder="계획을 입력하세요" />
+      </form>
+      <ul class="todoList"></ul>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/background.js"></script>
+  </body>
+</html>
